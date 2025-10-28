@@ -44,7 +44,7 @@ const ResultDisplay: React.FC<ResultDisplayProps> = ({ imageSrc, onReset }) => {
       
       <button
         onClick={onReset}
-        className="mt-12 inline-flex items-center gap-2 text-gray-600 font-semibold py-2 px-6 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-400 transition-colors"
+        className="mt-12 inline-flex items-center gap-2 text-indigo-600 font-bold py-3 px-8 rounded-lg border-2 border-indigo-500 hover:bg-indigo-50 hover:shadow-lg hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition-all duration-300"
       >
         <RetryIcon className="w-5 h-5" />
         <span>Buat Lagi</span>
